@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+:root {
+  --background-color: #0D1A2D;
+  --card-color: #15273F;
+  --text-light-blue: #23ECEE;
+  --image-light-blue: #23ECEE;
+  --text-color: #fff;
+  --text-light: #8bacd9;
+
+  --box-shadow: 0px 10px 20px black
+}
+
+body {
+  height: 100vh;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
