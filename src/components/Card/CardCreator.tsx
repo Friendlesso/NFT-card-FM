@@ -1,10 +1,10 @@
-import type { HoverTargert } from "./Card";
+import type { HoverTarget } from "./Card";
 
 type CardCreatorProps = {
   creator: string;
   creatorImage: string;
   hover: "creator" | null;
-  setHover: React.Dispatch<React.SetStateAction<HoverTargert>>
+  setHover: React.Dispatch<React.SetStateAction<HoverTarget>>
 }
 
 export function CardCreator({ creator, creatorImage, hover, setHover }: CardCreatorProps) {
